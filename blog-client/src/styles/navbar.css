@@ -1,0 +1,36 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0 !important;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+}
+.links h2 {
+  font-size: 20px;
+  margin: 0 !important;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+.bg-dark {
+  background: black !important;
+}
+.logo-right {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none;
+}

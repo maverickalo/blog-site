@@ -4,3 +4,6 @@ input[type='file'] {
 .header-reg {
   color: white;
 }
+.reg-container {
+  padding-top: 5vh;
+}

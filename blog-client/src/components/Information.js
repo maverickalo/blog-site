@@ -3,7 +3,7 @@ import '../styles/info.css';
 
 const Info = () => {
   return (
-    <div class="row ">
+    <div class="row">
       <div class="col-sm-3">
         <div class="card">
           <div class="card-body">

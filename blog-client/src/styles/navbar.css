@@ -14,7 +14,16 @@
   color: white;
 }
 .bg-dark {
-  background: black !important;
+  background: transparent !important;
+}
+.login-alert-contain {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.login-alert {
+  text-align: center;
+  width: 20%;
 }
 .logo-right {
   color: white;
@@ -25,6 +34,8 @@
   padding-bottom: 10px;
   padding-right: 12px;
   padding-left: 12px;
+  text-align: center;
+  z-index: 1;
 }
 .navbar-dark .navbar-toggler {
   border: none;
@@ -33,4 +44,48 @@
 .navbar-toggler {
   outline: none !important;
   box-shadow: none;
+}
+.navbar {
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  width: 100%;
+  background: transparent;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.card {
+  background: transparent;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+.btn-card {
+  display: flex;
+  justify-content: center;
+  border-color: white !important;
+  color: white !important;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.btn-card {
+  margin-top: 15px;
+}
+.icon-footer {
+  display: flex;
+  justify-content: center;
+}
+.fontawesome {
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
 }

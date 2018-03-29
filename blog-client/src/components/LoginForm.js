@@ -5,7 +5,7 @@ import '../styles/bootstrap-social.css';
 class LoginForm extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div class="container login-contain">
         <div className="header-reg text-center mb-5 mt-5">
           <h1 className="jumbo-text">Login</h1>
         </div>

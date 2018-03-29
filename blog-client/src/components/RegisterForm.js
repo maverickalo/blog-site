@@ -4,7 +4,7 @@ import '../styles/registerform.css';
 class RegisterForm extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div class="container reg-container">
         <div className="header-reg text-center mb-5 mt-5">
           <h1 className="jumbo-text">Register</h1>
         </div>

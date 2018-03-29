@@ -1,11 +1,12 @@
 .jumbotron {
   height: 100vh;
-  background: black;
+  background: transparent;
   color: white;
   display: flex;
   align-items: flex-start;
   padding-top: 20vh;
   margin-bottom: 0;
+  opacity: 1;
 }
 .jumbo-text {
   display: flex;

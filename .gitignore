@@ -1,2 +1,4 @@
 blog-server/node_modules
 blog-client/node_modules
+blog-server/config.js
+blog-client/src/content

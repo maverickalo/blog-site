@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index');
+const config = require('./config');
 
 app = express();
 
@@ -10,12 +11,9 @@ app.use(morgan('combined'));
 
 app.use(bodyParser.json({ type: '*/*' }));
 
-mongoose.connect(
-  'mongodb://maverickalo:shasta2550@ds227119.mlab.com:27119/blogie',
-  () => {
-    console.log('SUCCESSFULLY CONNECTED TO MONGODB!');
-  }
-);
+mongoose.connect(config.mongoDB, () => {
+  console.log('SUCCESSFULLY CONNECTED TO MONGODB!');
+});
 mongoose.connection.on('error', err => {
   console.error(`ERROR: ${err.message}`);
 });
